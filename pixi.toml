@@ -1,0 +1,17 @@
+[project]
+name = "orest"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Stadnik Andrii <stadnikandriy1@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.2,<3.13"
+pandas = ">=2.2.1,<2.3"
+jupyterlab = ">=4.1.4,<4.2"
+scikit-learn = ">=1.4.1.post1,<1.4.2"
+plotly = ">=5.19.0,<5.20"
+ipywidgets = ">=8.1.2,<8.2"
